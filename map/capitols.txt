@@ -1,0 +1,14 @@
+Mount Lebanon (1980,945)
+
+North Damascus (2285,895)
+Amman (2520,1940)
+Haifa (1790,1450)
+Tel Aviv (1740,1645)
+Ashqelon (1710,1725)
+Al Qalyubiyah (425,2350)
+Anbar (3235,1140)
+Cyprus (840,315)
+
+Northern Convoy (315,315)
+Central Convoy (315,530)
+Southern Convoy (315,745)

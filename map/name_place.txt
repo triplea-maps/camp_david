@@ -1,0 +1,26 @@
+Gaza Strip (1590,1930)
+Safed (2010,1260)
+Janub Sina Sector 6 (1470,3380)
+
+Al Isma'iliyah (700,2330)
+Janub Sina Sector 5 (1570,3060)
+Bur Sa'id (875,2085)
+West Maan (2050,2495)
+Homs (2680,630)
+Nabatiyeh (2010,1120)
+South Lebanon (1920,1150)
+Haifa (1830,1420)
+East Suez (960,2440)
+East Ismailia (910,2360)
+As Salt (2070,1660)
+Al Qalyubiyah (445,2440)
+Al Wadi Al Jadid (220,3360)
+As Suways (780,2625)
+
+Northern Convoy (275,375)
+Central Convoy (280,590)
+Southern Convoy (275,805)
+
+
+
+

@@ -1,0 +1,4 @@
+scroll.png  (2870,3200)
+sea.png  (550,700)
+land.png  (2100,3000)
+air.png  (2780,1980)
