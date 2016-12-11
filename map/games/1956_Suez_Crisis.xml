@@ -678,8 +678,6 @@
       <option name="defense" value="2"/>
       <option name="transportCost" value="2"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="isInfantry" value="true"/>
-      <option name="isAirTransportable" value="false"/>
       <option name="isInfantry" value="false"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
