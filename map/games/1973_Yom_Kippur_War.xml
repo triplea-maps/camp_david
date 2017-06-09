@@ -1543,7 +1543,7 @@
     <property name="Placement Restricted By Factory" value="true" editable="false">
       <boolean/>
     </property>
-    <property name="SBR Affects Unit Production" value="true" editable="false">
+    <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
       <boolean/>
     </property>
     <property name="neutralCharge" value="9999" editable="false"/>
