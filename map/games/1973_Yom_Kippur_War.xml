@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Camp David: 1973 Yom Kippur War" version="0.6.2"/>
+  <info name="Camp David: 1973 Yom Kippur War" version="0.6.3"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory Definitions -->
@@ -362,7 +362,6 @@
     <unit name="carrier"/>
     <unit name="submarine"/>
     <unit name="factory"/>
-    <unit name="factory_hit"/>
     <unit name="aaGun"/>
     <unit name="artillery"/>
     <unit name="destroyer"/>
@@ -522,11 +521,11 @@
     <!-- Repair rules -->
     <repairRule name="repairFactory">
       <cost resource="PUs" quantity="1"/>
-      <result resourceOrUnit="factory_hit" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="1"/>
     </repairRule>
     <repairRule name="repairFactoryIndustrialTechnology">
       <cost resource="PUs" quantity="1"/>
-      <result resourceOrUnit="factory_hit" quantity="2"/>
+      <result resourceOrUnit="factory" quantity="2"/>
     </repairRule>
     <repairFrontier name="repair">
       <repairRules name="repairFactory"/>
@@ -787,9 +786,6 @@
       <option name="isSub" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="isFactory" value="true"/>
-    </attachment>
-    <attachment name="unitAttachment" attachTo="factory_hit" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1792,8 +1788,9 @@ Map designed and created by Basile Lemaire. Many thanks to all the people on the
 </center>
 <br>
 Version history:<ul>
-<li> 0.6.1: first public release on the EB Depot.
+<li> 0.6.3: Fix Factories not repairing.
 <li> 0.6.2: minor bug fixes.
+<li> 0.6.1: first public release on the EB Depot.
 </ul>
 Thanks Veqryn, RogerCooper, Alitrader, Sieg, Pyngo, Trouble1, WhiteElk, ComradeKev for your help and feedback!
 <br>
