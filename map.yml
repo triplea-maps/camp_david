@@ -1,0 +1,6 @@
+map_name: camp_david
+games:
+- {game_name: 'Camp David: 1973 Yom Kippur War', file_name: 1973_Yom_Kippur_War.xml}
+- {game_name: 'Camp David: 1948 Arab-Israeli War', file_name: 1948_Arab-Israeli_War.xml}
+- {game_name: 'Camp David: 1956 Suez Crisis', file_name: 1956_Suez_Crisis.xml}
+- {game_name: 'Camp David: 1967 Six-Day War', file_name: 1967_Six-Day_War.xml}
